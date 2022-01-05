@@ -14,7 +14,7 @@ php artisan make:mail SendMailToUser
 
 2. then return the following code inside **build** method of SendMailToUser.php.
 ```Laravel
-return $this->subject('Congrats, You have successfully registered!')->view('sendingmail::email');
+return $this->subject('Congrats, You have successfully registered!')->view('sendingmails::email');
 ```
 **EDIT**:- You can write your own message inside subject as well...
 
@@ -39,6 +39,8 @@ Now, Package is all setup you can send mail by hiting the URL
 ```Laravel
 localhost:8000/sendmail
 ```
+
+Feel free to raise your issue if you found any wierd..
 
 **Thank you**
 
