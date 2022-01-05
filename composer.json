@@ -1,0 +1,19 @@
+{
+    "name": "knowproinsighter/sendingmails",
+    "description": "You send welcome mail to your user using this package!",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Knowproinsighter\\Sendingmails\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shubham Agrawal",
+            "email": "shuvambhopal@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
